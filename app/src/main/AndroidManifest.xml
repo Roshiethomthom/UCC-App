@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UCCConnect"
+        tools:targetApi="31">
+        <activity
+            android:name=".CourseViewActivity"
+            android:exported="false"
+            android:parentActivityName=".CoursesActivity"
+            />
+        <activity
+            android:name=".StaffViewActivity"
+            android:exported="false"
+            android:parentActivityName=".DirectoryActivity"/>
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false"
+            android:parentActivityName=".SocialActivity"/>
+        <activity
+            android:name=".SocialActivity"
+            android:exported="false"
+            android:label="Social Media Links"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DirectoryActivity"
+            android:exported="false"
+            android:label="Directory"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CoursesActivity"
+            android:exported="false"
+            android:label="Courses"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AdmissionsActivity"
+            android:exported="false"
+            android:label="Admissions"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Dashboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

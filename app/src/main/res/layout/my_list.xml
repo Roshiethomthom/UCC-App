@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/staffcardview"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/avatarImage"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:paddingRight="10dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:id="@+id/titleTxt"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#252159"
+            android:layout_toRightOf="@id/avatarImage"
+            android:fontFamily="@font/nunito_bold"
+            />
+
+        <TextView
+            android:id="@+id/fNameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/titleTxt"
+            android:fontFamily="@font/nunito_bold"
+            android:paddingRight="5dp"
+            android:text="Firstname"
+            android:textColor="#252159"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lNameTxt"
+            android:text="Lasttname"
+            android:textSize="18sp"
+            android:textColor="#252159"
+            android:layout_toRightOf="@id/fNameTxt"
+            android:fontFamily="@font/nunito_bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/positionTxt"
+            android:text="Position"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/avatarImage"
+            android:layout_below="@id/titleTxt"
+            android:fontFamily="@font/nunito"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailTxt"
+            android:text="Email"
+            android:textStyle="normal"
+            android:textSize="12sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/avatarImage"
+            android:layout_below="@id/positionTxt"
+            android:fontFamily="@font/nunito"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/telephoneTxt"
+            android:text="Telephone"
+            android:textStyle="normal"
+            android:textSize="12sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/avatarImage"
+            android:layout_below="@id/emailTxt"
+            android:fontFamily="@font/nunito"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+

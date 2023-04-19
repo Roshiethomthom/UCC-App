@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SocialActivity">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/background_view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#E3F2FD">
+
+        <TextView
+            android:id="@+id/introText"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="40dp"
+            android:text="CONNECT"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:fontFamily="@font/nunito_black"
+            />
+        <TextView
+            android:id="@+id/introText2"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="80dp"
+            android:text="WITH UCC"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:fontFamily="@font/nunito_bold"
+            />
+
+        <TextView
+            android:id="@+id/smlText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="follow us on our social media pages"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:fontFamily="@font/nunito"/>
+
+        <TextView
+            android:id="@+id/smlText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:text="to get the latest updates"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:fontFamily="@font/nunito"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/facebook"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="#fff"
+            android:layout_marginTop="200dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:scaleY="0.75"
+                    android:scaleX="0.75"
+                    android:src="@drawable/facebook"/>
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Facebook"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/nunito_bold"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:scaleY="0.75"
+                    android:scaleX="0.75"
+                    android:src="@drawable/arrow"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/twitter"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="#fff"
+            android:layout_marginTop="270dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:scaleY="0.75"
+                    android:scaleX="0.75"
+                    android:src="@drawable/twitter"/>
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Twitter"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/nunito_bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:scaleY="0.75"
+                    android:scaleX="0.75"
+                    android:src="@drawable/arrow"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/instagram"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="#fff"
+            android:layout_marginTop="340dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:scaleY="0.75"
+                    android:scaleX="0.75"
+                    android:src="@drawable/instagram"/>
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Instagram"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/nunito_bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:scaleY="0.75"
+                    android:scaleX="0.75"
+                    android:src="@drawable/arrow"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/youtube"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="#fff"
+            android:layout_marginTop="410dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:scaleY="0.75"
+                    android:scaleX="0.75"
+                    android:src="@drawable/youtube"/>
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Youtube"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/nunito_bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:scaleY="0.75"
+                    android:scaleX="0.75"
+                    android:src="@drawable/arrow"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/linkedIn"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="#fff"
+            android:layout_marginTop="480dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:scaleY="0.75"
+                    android:scaleX="0.75"
+                    android:src="@drawable/linkedin"
+                    />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="LinkedIn"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/nunito_bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:scaleY="0.75"
+                    android:scaleX="0.75"
+                    android:src="@drawable/arrow"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

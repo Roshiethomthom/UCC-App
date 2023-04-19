@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "552671212548",
+    "project_id": "ucc-it-app-e83b0",
+    "storage_bucket": "ucc-it-app-e83b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552671212548:android:4ee6ceb6133e8336153151",
+        "android_client_info": {
+          "package_name": "com.example.uccconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552671212548-uk80irrebffd94306gor1m94ug3ogaee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCJsBVzcC5mdpyTuY0dt4zyq8qoEDzoOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552671212548-uk80irrebffd94306gor1m94ug3ogaee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552671212548:android:6bacf9ac73618389153151",
+        "android_client_info": {
+          "package_name": "com.example.uccitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552671212548-uk80irrebffd94306gor1m94ug3ogaee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCJsBVzcC5mdpyTuY0dt4zyq8qoEDzoOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552671212548-uk80irrebffd94306gor1m94ug3ogaee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

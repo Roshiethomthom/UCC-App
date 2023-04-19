@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdmissionsActivity">
+
+        <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/background_view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="#E3F2FD"
+        android:layout_marginBottom="-15dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+
+
+            <TextView
+                android:id="@+id/admissions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Admissions"
+                android:textColor="#252159"
+                android:fontFamily="@font/nunito_black"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/uccLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click button link to apply"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/uccAppltBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Apply Now" />
+
+            <TextView
+                android:id="@+id/intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito"
+                android:lineSpacingExtra="5sp"
+                android:paddingTop="10sp"
+                android:text="The BSc Information Technology program prepares students with the necessary skills and knowledge to succeed in a real work environment. The program focuses on both professional competencies and academic requirements, allowing students to solve real-world IT problems while developing transferrable skills for a successful career."
+                android:textSize="14sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:textAlignment="center"
+                android:textColor="#252159"
+                android:fontFamily="@font/nunito_black"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/entry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entry requirements"
+                android:paddingTop="10sp"
+                />
+
+            <TextView
+                android:id="@+id/req1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Secondary (High) School diploma, GED, or Certificate of Equivalency / Proficiency or Passes in 5 GCE O Level / CSEC passes at A, B or C / I,II or III (including Mathematics and English) or International Baccalaureate (IB) or equivalent (subject to UCC Global’s approval)"
+                android:textSize="14sp"
+                android:paddingBottom="10sp"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/req2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Students who have successfully completed undergraduate program credits may be eligible to transfer up to 60 of those credits to the UCC Global program. Final determination on the eligibility of the transfer of credits will be made once your application and transcript(s) are received, reviewed, and approved by UCC Global."
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:textAlignment="center"
+                android:textColor="#252159"
+                android:fontFamily="@font/nunito_black"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/engreq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English language requirements"
+                />
+
+            <TextView
+                android:id="@+id/englishreq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The language of instruction at UCC Global is English. Applicants whose most recent education was not in English will be required to demonstrate English language proficiency, through the completion of an approved English testing regime such as the Test of English as a Foreign Language (TOEFL). Both TOEFL paper-based (PBT) and TOEFL Internet-based (IBT) will be accepted."
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:paddingBottom="50dp"/>
+        </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
